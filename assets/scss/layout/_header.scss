@@ -1,0 +1,61 @@
+h1{
+  text-align: center;
+  img{
+    max-width: 53px;
+  }
+  .text{
+    font-size: 32px;
+    @include mobile{
+      display: none;
+    }
+  }
+  span{
+    font-size: 16px;
+  }
+}
+
+
+
+nav{
+  form{
+    input{
+      max-width: 335px;
+    }
+    button{
+      max-width: 51px;
+      span{
+        color:#FBFF22 ;
+      }
+    }
+  }
+}
+
+.menu-desktop{
+  @include mobile{
+    display: none !important ;
+  }
+}
+
+.menu-mobile{
+  @include desktop{
+    display: none !important ;
+  }
+}
+
+h1 img{
+  @include mobile{
+    height: 39px;
+  }
+}
+
+.search{
+  @include mobile{
+    height: 39px;
+    max-width: 207px;
+  }
+}
+
+.collapse{
+  z-index: 100;
+}
+
