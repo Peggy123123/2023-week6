@@ -55,7 +55,17 @@ h1 img{
   }
 }
 
-.collapse{
+.hamburger{
+  position: relative;
+}
+
+.hamburger-list{
+  width: 100%;
+  position: absolute;
+  top: 78px;
+  right: 0px;
   z-index: 100;
+  background-color: #F3F1E5;
+  ;
 }
 
