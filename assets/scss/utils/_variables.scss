@@ -388,7 +388,11 @@ $spacers: (
   10: $spacer * 10,
   11: $spacer * 11,
   12: $spacer * 12,
-) !default;
+  13: $spacer * 13,
+  14: $spacer * 14,
+  15: $spacer * 15,
+
+) ;
 // scss-docs-end spacer-variables-maps
 
 // Position
@@ -564,7 +568,7 @@ $font-family-code:            var(--#{$prefix}font-monospace) !default;
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1rem ; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
@@ -582,15 +586,17 @@ $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 2; //custom
-$h2-font-size:                $font-size-base * 1; //custom
+$h2-font-size:                $font-size-base * 1.5; //custom
 $h3-font-size:                $font-size-base * 4; //custom
-$h4-font-size:                $font-size-base * 2; //custom
+$h4-font-size:                $font-size-base * 3; //custom
+$h5-font-size:                $font-size-base * 3; //custom
+$h6-font-size:                $font-size-base !default;
 // $h1-font-size:                $font-size-base * 2.5 !default;
 // $h2-font-size:                $font-size-base * 2 !default;
 // $h3-font-size:                $font-size-base * 1.75 !default;
 // $h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+// $h5-font-size:                $font-size-base * 1.25 !default;
+// $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -1255,7 +1261,8 @@ $placeholder-opacity-min:           .2 !default;
 $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
-$card-border-width:                 $border-width !default;
+$card-border-width:                 0;
+// $card-border-width:                 $border-width !default;
 $card-border-color:                 var(--#{$prefix}border-color-translucent) !default;
 $card-border-radius:                $border-radius !default;
 $card-box-shadow:                   null !default;

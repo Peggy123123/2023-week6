@@ -7,6 +7,13 @@ h1{
 
 h2{
     font-family: 'Noto Serif TC', serif;
+    font-size: 24px;
+    }
+
+    @media (max-width:767px) {
+        h2{
+            font-size: 18px;
+        }
     }
 
 h3{
@@ -14,7 +21,12 @@ h3{
 }
 
 h4{
+    font-family: 'Yeseva One', sans-serif;
+}
+
+h5{
     font-family: 'Noto Serif TC', serif;
+    font-size: 24px;
 }
 
 p{
@@ -37,10 +49,90 @@ p{
 
 //文字大小
 
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
 .fs-60{
     font-size: 60px;
 }
 
 .fs-24{
     font-size: 24px;
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+
+.fs-64{
+    font-size: 64px;
+}
+
+.main-yellow{
+    color: #FBFF22;
+}
+
+
+
+//自訂大小，rwd
+
+.fs-md-16{
+    @media (max-width:767px) {
+        font-size: 16px;
+    }
+}
+
+.fs-md-24{
+    @media (max-width:767px) {
+        font-size: 24px;
+    }
+}
+
+.fs-md-16{
+    @media (max-width:767px) {
+        font-size: 16px;
+    }
+}
+
+.fs-md-32{
+    @media (min-width:767px) {
+        font-size: 32px;
+    }
+}
+
+.fs-md-18{
+    @media (max-width:767px) {
+        font-size: 18px;
+    }
+}
+
+.fs-md-64{
+    @media (min-width:767px) {
+        font-size: 64px;
+    }
+}
+
+.fs-md-60{
+    @media (min-width:767px) {
+        font-size: 60px;
+    }
+}
+
+.fs-md-48{
+    @media (min-width:767px) {
+        font-size: 48px;
+    }
 }
