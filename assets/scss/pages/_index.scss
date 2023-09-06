@@ -73,6 +73,31 @@
   }
 }
 
+//modal
+
+.btn-member{
+  color: #FBFF22;
+  padding: 8px 32px;
+  background-color: #030303;
+  border: 0;
+  border-radius: 0%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.btn-close{
+  opacity: 1;
+}
+
+.modal-header-border{
+  border-bottom: 3px solid #000;
+}
+
+.modal-bg{
+  background-color: #F3F1E5;
+}
+
+
 //section-4
 
 .online-img{
@@ -164,4 +189,16 @@
   &:nth-child(3){
     transform: rotate(-2deg);
   }
+}
+
+//sectiom-6
+
+.info-icon{
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+}
+
+.form-control{
+  width: 92%;
 }

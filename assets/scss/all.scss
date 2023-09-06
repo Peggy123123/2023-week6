@@ -22,3 +22,6 @@
 
 //頁面
 @import './pages/index.scss';
+
+//套件
+@import './icofont/icofont.min.css';  //步驟：在icofont把icon加入collection > 下載壓縮檔 > 加進專案資料夾的scss內，匯入min.css到all.scss
