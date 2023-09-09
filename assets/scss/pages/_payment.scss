@@ -1,3 +1,70 @@
-.eee{
-    color: red;
+
+//section-1
+
+.number{
+    border: 1px solid #000;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+    background-color: #f3f1e5;
+    }
+
+@media (min-width:767px) {
+    .number{
+    width: 48px;
+    height: 48px;
+    }
+}
+
+.number-active{
+    background-color: #000;
+    color: #FBFF22;
+}
+
+.pay-list::before{
+    width: 83%;
+    height: 1px;
+    content: "";
+    background: #000;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 1;
+}
+
+
+//section-2
+
+.pay-image{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width:676px) {
+    .text-center-h2{
+        text-align: center;
+    }
+}
+
+.placeholder{
+    font-family: 'Noto Sans TC';
+    color: #878787;
+}
+
+.color-grey{
+    color: #4F4F4F;
+}
+
+.input-border{
+    border:3px solid  #000 ;
+}
+
+@media (min-width:767px) {
+    .button-desktop{
+        width: 416px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }

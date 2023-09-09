@@ -11,11 +11,69 @@
 <body>
     <%- include('./layout/header'); -%>
 
-    <div class="eee">fdfdg</div>
+    <div class="container mt-12 mb-15">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <ul class="d-flex justify-content-between pay-list position-relative pe-0">
+                    <li class="d-flex flex-column align-items-center ">
+                        <p class="number number-active fs-16 fs-md-20 noto-tc-serif d-flex justify-content-center align-items-center">1</p>
+                        <p class="noto-tc-serif lh-base mt-2">訂單確認</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center ">
+                        <p class="number fs-16 fs-md-20 noto-tc-serif d-flex justify-content-center align-items-center">2</p>
+                        <p class="noto-tc-serif lh-base  mt-2">結帳付款</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center ">
+                        <p class="number fs-16 fs-md-20 noto-tc-serif d-flex justify-content-center align-items-center">3</p>
+                        <p class="noto-tc-serif lh-base  mt-2">訂購結果</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center-h2 fs-md-48">返老還童-制服聯誼</h2>
+            <div class="col-md-6 mt-6 mt-md-12 mx-auto">
+                <div class="d-flex justify-content-between border-top border-dark border-2 py-2">
+                    <p class="noto-tc-serif lh-base">日期</p>
+                    <p class="noto-tc-sans lh-base">2023/5/12</p>
+                </div>
+                <div class="d-flex justify-content-between border-top border-dark py-2">
+                    <p class="noto-tc-serif  lh-base">票種</p>
+                    <p class="noto-tc-sans lh-base">改頭換面票（含大改造）</p>
+                </div>
+                <div class="d-flex justify-content-between border-top border-bottom border-dark py-2">
+                    <p class="noto-tc-serif  lh-base">票價</p>
+                    <p class="noto-tc-sans lh-base">$8000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-8 mb-4">
+            <img class="pay-image mb-4" src="../assets/images/sparkler.png" alt="image">
+            <h3 class="text-center noto-tc-serif fs-24">聯絡人資料</h3>
+            <div class="col-md-6 mx-auto">
+                <label for="name">聯絡人姓名</label><br>
+                <input class="input-border mt-2 mb-4 bg-transparent d-block w-100 fs-20 py-2 px-4 placeholder lh-base" type="name" id="name" placeholder="請輸入聯絡人名稱">
+                <label for="mail">Email</label><br>
+                <input class="input-border mt-2 mb-4 bg-transparent d-block w-100 fs-20 py-2 px-4 placeholder lh-base" type="email" id="mail" placeholder="請輸入Email">
+                <label for="phone">手機</label><br>
+                <input class="input-border mt-2 mb-4 bg-transparent d-block w-100 fs-20 py-2 px-4 placeholder lh-base" type="phone" id="phone" placeholder="請輸入手機號碼">
+                <button type="button" class="btn btn-dark button-desktop fs-20 lh-base w-sm-100 py-2 d-flex align-items-center justify-content-center"><span> 確認表單資料</span>
+                    <span class="material-symbols-outlined">keyboard_double_arrow_right</span>
+                </button>
+                <a href="#" class="fs-18 lh-base noto-tc-sans color-grey text-center d-block mt-4 mb-15">取消購票</a>
+            </div>
+        </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
-
+    <script type="module" src="../main.js"></script>
 </body>
 </html>
     

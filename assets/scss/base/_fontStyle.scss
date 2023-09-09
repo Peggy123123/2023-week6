@@ -94,19 +94,31 @@ p{
 //自訂大小，rwd
 
 .fs-md-16{
-    @media (max-width:767px) {
+    @media (min-width:767px) {
         font-size: 16px;
     }
 }
 
+.fs-md-18{
+    @media (min-width:767px) {
+        font-size: 18px;
+    }
+}
+
+.fs-md-20{
+    @media (min-width:767px) {
+        font-size: 20px;
+    }
+}
+
 .fs-md-24{
-    @media (max-width:767px) {
+    @media (min-width:767px) {
         font-size: 24px;
     }
 }
 
 .fs-md-16{
-    @media (max-width:767px) {
+    @media (min-width:767px) {
         font-size: 16px;
     }
 }
@@ -118,7 +130,7 @@ p{
 }
 
 .fs-md-18{
-    @media (max-width:767px) {
+    @media (min-width:767px) {
         font-size: 18px;
     }
 }
